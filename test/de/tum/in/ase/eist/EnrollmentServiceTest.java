@@ -48,5 +48,4 @@ class EnrollmentServiceTest {
 		assertEquals(expectedSize, student.getCourses().size());
 		verify(courseMock);
 	}
-
 }
